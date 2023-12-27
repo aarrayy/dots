@@ -202,7 +202,7 @@ exec feh --bg-fill ~/.config/i3/wallpaper.png
 
 exec --no-startup-id dunst
 exec --no-startup-id xfce4-clipman
-exec --no-startup-id picom
+exec --no-startup-id picom --daemon
 exec --no-startup-id dex -a -s /etc/xdg/autostart/:~/.config/autostart/
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
